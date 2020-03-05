@@ -14,8 +14,10 @@ public class Player : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        ReadInput();
-        if (horizontalMovement != 0) Move();
+        if (GameManager.Instance.state == GameManager.GameState.Gameplay) {
+            ReadInput();
+            if (horizontalMovement != 0) Move();
+        }
     }
 
     void ReadInput() {

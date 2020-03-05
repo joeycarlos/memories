@@ -76,7 +76,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '[Space]: Memory Log'
+  m_Text: '[Space] Memory Log'
 --- !u!1 &4558326838559670009
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,3 +191,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   memoryPopup: {fileID: 5028873193615393167, guid: f4989aef58f3da54783612e467955790,
     type: 3}
+  memoryLog: {fileID: 8507875496878029737, guid: 1c7736580d67ea943ad0156f8cd9f921,
+    type: 3}
+  memoryLogPrompt: {fileID: 1317118404}

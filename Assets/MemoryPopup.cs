@@ -11,15 +11,15 @@ public class MemoryPopup : MonoBehaviour
     public Text mDescription;
     public Image mImage;
 
-    void Start() {
-        Destroy(gameObject, displayTime);
-    }
-
     public void LoadMemoryData(int id) {
         MemoryData mData = MemoryManager.Instance.memoryDataList[id];
         mName.text = "Memory " + (id + 1).ToString() + ": " + mData.name;
         mDescription.text = mData.description;
         // mImage = mData.sprite
+    }
+
+    public void DestroyPopupDelay() {
+        Destroy(gameObject, displayTime);
     }
 
 }

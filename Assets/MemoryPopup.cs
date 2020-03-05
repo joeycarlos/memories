@@ -12,7 +12,9 @@ public class MemoryPopup : MonoBehaviour
     public Image mImage;
 
     public void LoadMemoryData(int id) {
+        Debug.Log("LOADING MEMORY " + id);
         MemoryData mData = MemoryManager.Instance.memoryDataList[id];
+        Debug.Log(mData.name);
         mName.text = "Memory " + (id + 1).ToString() + ": " + mData.name;
         mDescription.text = mData.description;
         // mImage = mData.sprite

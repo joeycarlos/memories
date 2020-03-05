@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Memory : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public int memoryID;
+
+    void Start() {
+        // load data from MemoryManager
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         
     }
 }

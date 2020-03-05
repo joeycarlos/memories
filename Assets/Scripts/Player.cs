@@ -29,7 +29,8 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Memory")) {
-            Debug.Log(MemoryManager.Instance.memoryDataList[collision.gameObject.GetComponent<Memory>().memoryID].name);
+            // Debug.Log(MemoryManager.Instance.memoryDataList[collision.gameObject.GetComponent<Memory>().memoryID].name);
+            GameplayUI.Instance.DisplayMemoryPopup();
             Destroy(collision.gameObject);
         }
     }

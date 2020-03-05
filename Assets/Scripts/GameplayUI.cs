@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameplayUI : MonoBehaviour
 {
@@ -17,7 +18,13 @@ public class GameplayUI : MonoBehaviour
         }
     }
 
+    public GameObject memoryPopup;
+
     void Awake() {
         _instance = this;
+    }
+
+    public void DisplayMemoryPopup() {
+        GameObject iMemoryPopup = Instantiate(memoryPopup, transform, false);
     }
 }

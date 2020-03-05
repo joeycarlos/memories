@@ -24,7 +24,8 @@ public class GameplayUI : MonoBehaviour
         _instance = this;
     }
 
-    public void DisplayMemoryPopup() {
+    public void DisplayMemoryPopup(int id) {
         GameObject iMemoryPopup = Instantiate(memoryPopup, transform, false);
+        iMemoryPopup.GetComponent<MemoryPopup>().LoadMemoryData(id);
     }
 }

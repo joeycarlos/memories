@@ -44,13 +44,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   memoryDataList:
-  - name: Hinge App
+  - name: Hinge
     description: I was flipping through Hinge and came across this cute Asian boy.
       I wasn't shy, I messaged you first!
     sprite: {fileID: 0}
-  - name: 
-    description: 
+  - name: '"Endless Love"'
+    description: After exchaging numbers, cheesy 90 song lyrics and chatting past
+      midnight for two weeks it was finally time to go on our first date!
     sprite: {fileID: 0}
-  - name: 
-    description: 
+  - name: Roses
+    description: I am usually a nervous person on dates but I was excited to meet
+      you! I was so suprised at the big bouquet of roses on the front seat!
     sprite: {fileID: 0}

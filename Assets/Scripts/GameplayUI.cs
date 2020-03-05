@@ -28,6 +28,10 @@ public class GameplayUI : MonoBehaviour
         _instance = this;
     }
 
+    void Update() {
+        if (GameManager.Instance.state == GameManager.GameState.Log) ReadLogInput();
+    }
+
     public void DisplayMemoryPopup(int id) {
         GameObject iMemoryPopup = Instantiate(memoryPopup, transform, false);
         iMemoryPopup.GetComponent<MemoryPopup>().LoadMemoryData(id);
@@ -44,5 +48,9 @@ public class GameplayUI : MonoBehaviour
             Destroy(iMemoryLog);
             memoryLogPrompt.gameObject.SetActive(true);
         }
+    }
+
+    void ReadLogInput() {
+
     }
 }

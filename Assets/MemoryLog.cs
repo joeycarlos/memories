@@ -9,6 +9,7 @@ public class MemoryLog : MonoBehaviour
 
     // Start is called before the first frame update
     void Start() {
+        featuredMemory = transform.Find("MemoryPopup").GetComponent<MemoryPopup>();
         EventSystem.current.SetSelectedGameObject(GameObject.Find("MemoryLogItem"));
     }
 }

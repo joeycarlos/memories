@@ -47,6 +47,6 @@ public class GameplayUI : MonoBehaviour
     }
 
     public void UpdateFeaturedMemory(int id) {
-        memoryLog.GetComponent<MemoryLog>().featuredMemory.LoadMemoryData(id);
+        iMemoryLog.GetComponent<MemoryLog>().featuredMemory.LoadMemoryData(id);
     }
 }

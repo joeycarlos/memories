@@ -5,7 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class SceneFlowManager : MonoBehaviour
 {
+    private static SceneFlowManager _instance;
+
+    public static SceneFlowManager Instance {
+        get {
+            if (_instance == null) {
+                GameObject go = new GameObject("SceneFlowManager");
+                go.AddComponent<SceneFlowManager>();
+            }
+
+            return _instance;
+        }
+    }
+
     void Awake() {
+        _instance = this;
+
         switch (SceneManager.GetActiveScene().buildIndex) {
             case 0:
                 GameplayData.MemoriesUnlocked = 0;
@@ -58,7 +73,7 @@ public class SceneFlowManager : MonoBehaviour
         }
     }
 
-    void NextScene() {
+    public void NextScene() {
         switch (SceneManager.GetActiveScene().buildIndex) {
             case 0:     // MAIN SPLASH
                 SceneManager.LoadScene(1);

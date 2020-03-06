@@ -35,6 +35,8 @@ public class Player : MonoBehaviour
             int id = collision.gameObject.GetComponent<Memory>().memoryID;
             GameplayUI.Instance.DisplayMemoryPopup(id);
             Destroy(collision.gameObject);
+        } else if (collision.gameObject.layer == LayerMask.NameToLayer("Exit")) {
+            SceneFlowManager.Instance.NextScene();
         }
     }
 }

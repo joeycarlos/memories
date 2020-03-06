@@ -6,6 +6,54 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
+    path: Assets/Scenes/0 Main Splash.unity
+    guid: 41f8437d295f9ec47ab39c54569ab875
+  - enabled: 1
+    path: Assets/Scenes/1 Instructions.unity
+    guid: ad4df10323db1dc4180f6beef1a1f5cf
+  - enabled: 1
+    path: Assets/Scenes/2 Context.unity
+    guid: 870623ad983dc794d9db0c55a1d61e97
+  - enabled: 1
+    path: Assets/Scenes/3 Level1 Splash.unity
+    guid: 9d017e37ebae1cb4cb590ebce37d310f
+  - enabled: 1
+    path: Assets/Scenes/4 Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/5 Level1 Complete.unity
+    guid: 0d5a58a33afd4574bab33e6aec9f25e1
+  - enabled: 1
+    path: Assets/Scenes/6 Level2 Splash.unity
+    guid: d98e960882aa0f94fba954c3f605a28a
+  - enabled: 1
+    path: Assets/Scenes/7 Level2.unity
+    guid: ca234624a504a454a923875a85c7f50f
+  - enabled: 1
+    path: Assets/Scenes/8 Level2 Complete.unity
+    guid: 989cfc5278aaf6947a47013d1f07ef92
+  - enabled: 1
+    path: Assets/Scenes/9 Level3 Splash.unity
+    guid: 7f4019ebc2f7dd443b6f703b53ce1dd0
+  - enabled: 1
+    path: Assets/Scenes/10 Level3.unity
+    guid: 0bb3078439ca5ed4895a6b629f0d15bb
+  - enabled: 1
+    path: Assets/Scenes/11 Level3 Complete.unity
+    guid: c609df75df7902440b9a939b26033fb2
+  - enabled: 1
+    path: Assets/Scenes/12 Level4 Splash.unity
+    guid: 2e3861f33df2f17489d4d2ff354adec4
+  - enabled: 1
+    path: Assets/Scenes/13 Level4.unity
+    guid: 3df6aa1bef4b3484b8b0829a526da8f2
+  - enabled: 1
+    path: Assets/Scenes/14 Level4 Complete.unity
+    guid: 9a2d68cd6ec3bb14e92df12440ff8847
+  - enabled: 1
+    path: Assets/Scenes/15 Ending.unity
+    guid: 632ffcccef7670145a461e95970d4347
+  - enabled: 1
+    path: Assets/Scenes/16 Final Memory Log.unity
+    guid: 6a29277cbea31c54bb6312bd3d335b6f
   m_configObjects: {}

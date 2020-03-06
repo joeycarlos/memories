@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     }
 
     void Start() {
-        memoriesUnlocked = 0;
+        memoriesUnlocked = GameplayData.MemoriesUnlocked;
     }
 
     void Update() {
@@ -47,5 +47,6 @@ public class GameManager : MonoBehaviour
 
     public void IncreaseMemoriesUnlocked() {
         memoriesUnlocked++;
+        GameplayData.MemoriesUnlocked = memoriesUnlocked;
     }
 }

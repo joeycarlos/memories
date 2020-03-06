@@ -56,3 +56,104 @@ MonoBehaviour:
     description: I am usually a nervous person on dates but I was excited to meet
       you! I was so suprised at the big bouquet of roses on the front seat!
     sprite: {fileID: 0}
+  - name: Tim Hortons Cup
+    description: We went to a sushi restaurant and you forgot to pay for parking
+      hehe. From Theirry to Tim Hortons and into your car...our conversations led
+      us to a 12 hour date.
+    sprite: {fileID: 0}
+  - name: Heart
+    description: And then you asked me to be your girlfriend on that date - Some
+      say it might be quick - But I felt something special and something else between
+      us so I said yes!
+    sprite: {fileID: 0}
+  - name: Car
+    description: Our dates were simple but sweet! You continued to surprise me with
+      flowers and we would check out a restaurant and then drive for hours while
+      we chatted and sang to your music
+    sprite: {fileID: 0}
+  - name: Mountains
+    description: After our first month, we decided to travel to Banff! I had never
+      been before and a 10 hour car ride seemed daunting but it was so much fun!
+    sprite: {fileID: 0}
+  - name: Pine Tree
+    description: We danced across a frozen Lake Louise, exploered Athabasca falls
+      and enjoyed the hot springs. You even picked me up a unique souvenir to bring
+      home... a tree named Jasper!
+    sprite: {fileID: 0}
+  - name: Boarding Pass
+    description: In May, we took our first plane ride to Toronto for an overnight
+      trip with my bestfriends! Despite all the flight difficulties, you managed
+      to make a special trip for my friends and I!
+    sprite: {fileID: 0}
+  - name: Tulips
+    description: We headed to Abbostford one day with your cousin and niece. After
+      a picnic, we frolicked among the tulips and you were the perfect "Instagram
+      boyfriend" and took pictures of us.
+    sprite: {fileID: 0}
+  - name: Hellevator
+    description: In the summer, you helped me face a fear. You held my hand the whole
+      time for the Hellevator ride at the PNE and although I felt sick after, I was
+      glad to experience it with you
+    sprite: {fileID: 0}
+  - name: PS3 Games
+    description: We took a road trip to Portland and of course stopped at Jollibee
+      along the way. Although you were so tired you kept driving! But we also scored
+      those PS3 games for free!
+    sprite: {fileID: 0}
+  - name: X-Ray
+    description: You accompanied me to my pre-surgery appointment and I was absolutley
+      terrified. But having you there and reminding me of how strong I was gave me
+      courage
+    sprite: {fileID: 0}
+  - name: Spaghetti
+    description: We celebated your birthday in October. I surprised you with a home
+      cooked meal featuring your favourite - Spaghetti Bolognese!
+    sprite: {fileID: 0}
+  - name: Damaged Car
+    description: A week before surgey, we got into a car accident with your Prius.
+      I was a big mess but you took handled it so well and you took care of me.
+    sprite: {fileID: 0}
+  - name: Hospital
+    description: On the day of the surgey, you came with my family and brought me
+      home after. I was so thankful and at ease that I had you by my side as I was
+      walking in crutches
+    sprite: {fileID: 0}
+  - name: Crutches
+    description: You were an amazing care taker. You helped me out of bed, carried
+      me up the stairs, encouraged me to do my execises and made sure I was fed and
+      comfortable
+    sprite: {fileID: 0}
+  - name: Wheelchair
+    description: And even in my disabled state, you made me feel normal. We made
+      the most of my time in my wheelchair and film music videos. We also went for
+      day trips to Seattle
+    sprite: {fileID: 0}
+  - name: Mexico
+    description: After 2 flights and a 5 hour bus ride, we finally made it to Bacalar
+      to start our early anniversary trip! This was another test of patience as we
+      had to navigate with our broken Spanish
+    sprite: {fileID: 0}
+  - name: Boat
+    description: You booked a boat tour of the 7 coloured lagoon for Valentine's
+      Day. We swam in what seemed like the world's largest pool and had endless tequila
+      drinks on the boat
+    sprite: {fileID: 0}
+  - name: Waves
+    description: The next day we headed to Isla Mujeres. There we rented a golf cart
+      and drove to see the beautiful turqouise waters and beaches. We made some iguana
+      friends along the way
+    sprite: {fileID: 0}
+  - name: Fish
+    description: You had a great time snorkelling while I laid on the beach with
+      a mojito. The fish freaked me out too much but you enjoyed swimming along side
+      them!
+    sprite: {fileID: 0}
+  - name: Market
+    description: We spent our last day in Cancun and headed to the market. We were
+      on the hunt for the perfect Catalina - Your something special at a great bargain
+    sprite: {fileID: 0}
+  - name: Stars
+    description: My favourite memory was spending time with you on the beach while
+      we star gazed and talked about life. It was a perfect moment being with you
+      and hearing the waves crash
+    sprite: {fileID: 0}

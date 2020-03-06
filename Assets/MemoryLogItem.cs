@@ -10,7 +10,6 @@ public class MemoryLogItem : MonoBehaviour, ISelectHandler {
 
     public void OnSelect(BaseEventData eventData) {
         // Update featured memory log item
-        Debug.Log(id);
         GameplayUI.Instance.UpdateFeaturedMemory(id);
     }
 }

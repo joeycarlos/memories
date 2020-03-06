@@ -47,6 +47,9 @@ public class GameplayUI : MonoBehaviour
     }
 
     public void UpdateFeaturedMemory(int id) {
-        iMemoryLog.GetComponent<MemoryLog>().featuredMemory.LoadMemoryData(id);
+        if (id < GameManager.Instance.memoriesUnlocked)
+            iMemoryLog.GetComponent<MemoryLog>().featuredMemory.LoadMemoryData(id);
+        else
+            iMemoryLog.GetComponent<MemoryLog>().featuredMemory.LoadMemoryData(24); // load the default unknown memory
     }
 }

@@ -20,9 +20,15 @@ public class GameManager : MonoBehaviour
     public enum GameState { Gameplay, Log };
     public GameState state;
 
+    public int memoriesUnlocked;
+
     void Awake() {
         _instance = this;
         state = GameState.Gameplay;
+    }
+
+    void Start() {
+        memoriesUnlocked = 0;
     }
 
     void Update() {
@@ -37,5 +43,9 @@ public class GameManager : MonoBehaviour
                 state = GameState.Gameplay;
             }
         }
+    }
+
+    public void IncreaseMemoriesUnlocked() {
+        memoriesUnlocked++;
     }
 }

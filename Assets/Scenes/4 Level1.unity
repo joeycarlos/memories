@@ -1281,19 +1281,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 309916322, guid: e2e883117f272fd4eb2127b589dbf1c7, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 519420030, guid: e2e883117f272fd4eb2127b589dbf1c7, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1559859403}
-    - target: {fileID: 4541906305808658560, guid: e2e883117f272fd4eb2127b589dbf1c7,
-        type: 3}
-      propertyPath: minYSpawnDirection
-      value: 0.4
-      objectReference: {fileID: 0}
     - target: {fileID: 8676400233832784490, guid: e2e883117f272fd4eb2127b589dbf1c7,
         type: 3}
       propertyPath: m_Name

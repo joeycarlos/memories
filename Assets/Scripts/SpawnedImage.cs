@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class SpawnedImage : MonoBehaviour
 {
-    public float lifespan;
-
     private float moveSpeed;
     private Vector3 moveDirection;
 
@@ -13,7 +11,6 @@ public class SpawnedImage : MonoBehaviour
 
     // Start is called before the first frame update
     void Start() {
-        Destroy(gameObject, lifespan);
         moveSpeed = 0;
         moveDirection = Vector3.zero;
     }
@@ -23,9 +20,11 @@ public class SpawnedImage : MonoBehaviour
         transform.Translate(moveVector);
     }
 
-    public void Init(float newMoveSpeed, float newX, float newY) {
+    public void Init(float newMoveSpeed, float newX, float newY, float lifespan, float scale) {
         moveSpeed = newMoveSpeed;
         moveDirection = new Vector3(newX, newY, 0);
         moveVector = moveDirection.normalized * moveSpeed * Time.deltaTime;
+        transform.localScale = new Vector3(scale, scale, 1);
+        Destroy(gameObject, lifespan);
     }
 }

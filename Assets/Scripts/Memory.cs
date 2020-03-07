@@ -8,6 +8,8 @@ public class Memory : MonoBehaviour
 
     void Start() {
         // load data from MemoryManager
+        SpriteRenderer iconSr = GetComponentsInChildren<SpriteRenderer>()[1];
+        iconSr.sprite = MemoryManager.Instance.memoryDataList[memoryID].sprite;
     }
 
     void Update() {

@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameplayUI : MonoBehaviour
-{
+public class GameplayUI : MonoBehaviour {
     private static GameplayUI _instance;
 
     public static GameplayUI Instance {
@@ -50,7 +49,11 @@ public class GameplayUI : MonoBehaviour
     }
 
     public void UpdateFeaturedMemory(int id) {
-        if (id < GameManager.Instance.memoriesUnlocked)
+        if (SceneFlowManager.Instance.ThisScene() == 16) {
+            iMemoryLog = GameObject.Find("MemoryLog");
+        }
+
+        if (id < GameManager.Instance.memoriesUnlocked || SceneFlowManager.Instance.ThisScene() == 16)
             iMemoryLog.GetComponent<MemoryLog>().featuredMemory.LoadMemoryData(id);
         else
             iMemoryLog.GetComponent<MemoryLog>().featuredMemory.LoadMemoryData(24); // load the default unknown memory

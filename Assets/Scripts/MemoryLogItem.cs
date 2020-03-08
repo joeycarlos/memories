@@ -13,7 +13,7 @@ public class MemoryLogItem : MonoBehaviour, ISelectHandler {
         Image mImage = GetComponentsInChildren<Image>()[1];
 
         MemoryData mData = MemoryManager.Instance.memoryDataList[id];
-        if (id < 24 && id < GameManager.Instance.memoriesUnlocked) {
+        if (SceneFlowManager.Instance.ThisScene() == 16 || (id < 24 && id < GameManager.Instance.memoriesUnlocked)) {
             mImage.sprite = mData.sprite;
         }
         else {

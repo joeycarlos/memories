@@ -125,4 +125,8 @@ public class SceneFlowManager : MonoBehaviour
                 break;
         }
     }
+
+    public int ThisScene() {
+        return SceneManager.GetActiveScene().buildIndex;
+    }
 }

@@ -26,6 +26,8 @@ public class Spawner : MonoBehaviour
     public float minSize;
     public float maxSize;
 
+    public bool attachToParent;
+
     private float timeSinceSpawn;
 
     void Start() {
@@ -42,7 +44,13 @@ public class Spawner : MonoBehaviour
 
     void Spawn() {
         GameObject image = imageList[Random.Range(0, imageList.Count)];
-        GameObject iImage = Instantiate(image, transform.position + new Vector3 (Random.Range(-horizontalSpawnAmplitude, horizontalSpawnAmplitude), Random.Range(-verticalSpawnAmplitude, verticalSpawnAmplitude), 0), Quaternion.identity);
-        iImage.GetComponent<SpawnedImage>().Init(Random.Range(minSpeed, maxSpeed), Random.Range(minXSpawnDirection, maxXSpawnDirection), Random.Range(minYSpawnDirection, maxYSpawnDirection), lifespan, Random.Range(minSize, maxSize));
+        if (attachToParent == false) {
+            GameObject iImage = Instantiate(image, transform.position + new Vector3(Random.Range(-horizontalSpawnAmplitude, horizontalSpawnAmplitude), Random.Range(-verticalSpawnAmplitude, verticalSpawnAmplitude), 0), Quaternion.identity);
+            iImage.GetComponent<SpawnedImage>().Init(Random.Range(minSpeed, maxSpeed), Random.Range(minXSpawnDirection, maxXSpawnDirection), Random.Range(minYSpawnDirection, maxYSpawnDirection), lifespan, Random.Range(minSize, maxSize));
+        } else {
+            GameObject iImage = Instantiate(image, transform.position + new Vector3(Random.Range(-horizontalSpawnAmplitude, horizontalSpawnAmplitude), Random.Range(-verticalSpawnAmplitude, verticalSpawnAmplitude), 0), Quaternion.identity, transform.parent);
+            iImage.GetComponent<SpawnedImage>().Init(Random.Range(minSpeed, maxSpeed), Random.Range(minXSpawnDirection, maxXSpawnDirection), Random.Range(minYSpawnDirection, maxYSpawnDirection), lifespan, Random.Range(minSize, maxSize));
+        }
+        
     }
 }

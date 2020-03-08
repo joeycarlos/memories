@@ -159,4 +159,4 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 5e934d296b2e2634ba8a462a3c40bd91, type: 3}
   - name: Unknown
     description: Keep playing to unlock this memory!
-    sprite: {fileID: 21300000, guid: 28d9ef92966c43b46a9ea59b97b17d79, type: 3}
+    sprite: {fileID: 21300000, guid: d2ff030249e17a1449a063184ef3ccff, type: 3}

@@ -16,12 +16,12 @@ public class MemoryPopup : MonoBehaviour
         if (id < 24) {
             mName.text = "Memory " + (id + 1).ToString() + ": " + mData.name;
             mDescription.text = mData.description;
+            mImage.sprite = mData.sprite;
         } else {
             mName.text = mData.name;
             mDescription.text = mData.description;
+            mImage.sprite = mData.sprite;
         }
-
-        // mImage = mData.sprite
     }
 
     public void DestroyPopupDelay() {

@@ -32,17 +32,21 @@ public class GameManager : MonoBehaviour
     }
 
     void Update() {
-        if (state == GameState.Gameplay) {
-            if (Input.GetKeyDown(KeyCode.Space)) {
-                GameplayUI.Instance.ToggleMemoryLog();
-                state = GameState.Log;
+        if (SceneFlowManager.Instance.ThisScene() != 17) {
+            if (state == GameState.Gameplay) {
+                if (Input.GetKeyDown(KeyCode.Space)) {
+                    GameplayUI.Instance.ToggleMemoryLog();
+                    state = GameState.Log;
+                }
             }
-        } else if (state == GameState.Log) {
-            if (Input.GetKeyDown(KeyCode.Space)) {
-                GameplayUI.Instance.ToggleMemoryLog();
-                state = GameState.Gameplay;
+            else if (state == GameState.Log) {
+                if (Input.GetKeyDown(KeyCode.Space)) {
+                    GameplayUI.Instance.ToggleMemoryLog();
+                    state = GameState.Gameplay;
+                }
             }
         }
+
     }
 
     public void IncreaseMemoriesUnlocked() {

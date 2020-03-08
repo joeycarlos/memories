@@ -70,6 +70,9 @@ public class SceneFlowManager : MonoBehaviour
             case 15:    // ENDING
                 if (Input.GetKeyDown(KeyCode.Space)) NextScene();
                 break;
+            case 16:    // CREDITS
+                if (Input.GetKeyDown(KeyCode.Space)) NextScene();
+                break;
         }
     }
 
@@ -122,6 +125,9 @@ public class SceneFlowManager : MonoBehaviour
                 break;
             case 15:    // ENDING
                 SceneManager.LoadScene(16);
+                break;
+            case 16:    // CREDITS
+                SceneManager.LoadScene(17);
                 break;
         }
     }

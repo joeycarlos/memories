@@ -54,6 +54,9 @@ EditorBuildSettings:
     path: Assets/Scenes/15 Ending.unity
     guid: 632ffcccef7670145a461e95970d4347
   - enabled: 1
-    path: Assets/Scenes/16 Final Memory Log.unity
+    path: Assets/Scenes/16 Credits.unity
+    guid: d74f0d130847bbd4aa2483fb48bc796e
+  - enabled: 1
+    path: Assets/Scenes/17 Final Memory Log.unity
     guid: 6a29277cbea31c54bb6312bd3d335b6f
   m_configObjects: {}

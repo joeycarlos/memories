@@ -174,7 +174,7 @@ PrefabInstance:
     - target: {fileID: 8507875496878029736, guid: 1c7736580d67ea943ad0156f8cd9f921,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 900
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 8507875496878029736, guid: 1c7736580d67ea943ad0156f8cd9f921,
         type: 3}
@@ -216,6 +216,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MemoryLog
       objectReference: {fileID: 0}
+    - target: {fileID: 9011810898422006092, guid: 1c7736580d67ea943ad0156f8cd9f921,
+        type: 3}
+      propertyPath: featuredMemory
+      value: 
+      objectReference: {fileID: 6481824615339711395}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c7736580d67ea943ad0156f8cd9f921, type: 3}
 --- !u!224 &1933849510232256819 stripped
@@ -224,3 +229,15 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 7837497356443372187}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6481824615339711395 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3832690238357639480, guid: 1c7736580d67ea943ad0156f8cd9f921,
+    type: 3}
+  m_PrefabInstance: {fileID: 7837497356443372187}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b02feb0a2f72643be17f9ba8cbe419, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

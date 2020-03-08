@@ -28,6 +28,13 @@ public class GameplayUI : MonoBehaviour {
         _instance = this;
     }
 
+    void Start() {
+        if (SceneFlowManager.Instance.ThisScene() == 17) {
+            memoryLogPrompt.gameObject.SetActive(false);
+            controlPrompt.gameObject.SetActive(false);
+        }
+    }
+
     public void DisplayMemoryPopup(int id) {
         GameObject iMemoryPopup = Instantiate(memoryPopup, transform, false);
         iMemoryPopup.GetComponent<MemoryPopup>().LoadMemoryData(id);
@@ -49,11 +56,11 @@ public class GameplayUI : MonoBehaviour {
     }
 
     public void UpdateFeaturedMemory(int id) {
-        if (SceneFlowManager.Instance.ThisScene() == 16) {
+        if (SceneFlowManager.Instance.ThisScene() == 17) {
             iMemoryLog = GameObject.Find("MemoryLog");
         }
 
-        if (id < GameManager.Instance.memoriesUnlocked || SceneFlowManager.Instance.ThisScene() == 16)
+        if (id < GameManager.Instance.memoriesUnlocked || SceneFlowManager.Instance.ThisScene() == 17)
             iMemoryLog.GetComponent<MemoryLog>().featuredMemory.LoadMemoryData(id);
         else
             iMemoryLog.GetComponent<MemoryLog>().featuredMemory.LoadMemoryData(24); // load the default unknown memory

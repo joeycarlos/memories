@@ -155,7 +155,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Road Trip
+  m_Text: Adventures
 --- !u!1 &1949412843
 GameObject:
   m_ObjectHideFlags: 0

@@ -74,89 +74,89 @@ MonoBehaviour:
   - name: Mountains
     description: After our first month, we decided to travel to Banff! I had never
       been before and a 10 hour car ride seemed daunting but it was so much fun!
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: a37b6c3b9b9f3204c98cac6aa78fead0, type: 3}
   - name: Pine Tree
     description: We danced across a frozen Lake Louise, exploered Athabasca falls
       and enjoyed the hot springs. You even picked me up a unique souvenir to bring
       home... a tree named Jasper!
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 5b2a1b7ac8623814e99efbfafa70d5fe, type: 3}
   - name: Boarding Pass
     description: In May, we took our first plane ride to Toronto for an overnight
       trip with my bestfriends! Despite all the flight difficulties, you managed
       to make a special trip for my friends and I!
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 3827a17a180f48e48ab4da9894eca6f0, type: 3}
   - name: Tulips
     description: We headed to Abbostford one day with your cousin and niece. After
       a picnic, we frolicked among the tulips and you were the perfect "Instagram
       boyfriend" and took pictures of us.
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: f8931960021fd284ca1d7f2380f76cb1, type: 3}
   - name: Hellevator
     description: In the summer, you helped me face a fear. You held my hand the whole
       time for the Hellevator ride at the PNE and although I felt sick after, I was
       glad to experience it with you
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 0abd26f084a698c4cab33d27bfa92675, type: 3}
   - name: PS3 Games
     description: We took a road trip to Portland and of course stopped at Jollibee
       along the way. Although you were so tired you kept driving! But we also scored
       those PS3 games for free!
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 07b41cb8e5f95934c9457eaf3c4f35cf, type: 3}
   - name: X-Ray
     description: You accompanied me to my pre-surgery appointment and I was absolutley
       terrified. But having you there and reminding me of how strong I was gave me
       courage
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: a3f8bd8113b1555408566d1569146250, type: 3}
   - name: Spaghetti
     description: We celebated your birthday in October. I surprised you with a home
       cooked meal featuring your favourite - Spaghetti Bolognese!
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 15562e58b68c308418eef73e234c58c8, type: 3}
   - name: Damaged Car
     description: A week before surgey, we got into a car accident with your Prius.
       I was a big mess but you took handled it so well and you took care of me.
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: f53bf2c8c063be647831370092caa566, type: 3}
   - name: Hospital
     description: On the day of the surgey, you came with my family and brought me
       home after. I was so thankful and at ease that I had you by my side as I was
       walking in crutches
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 3ccfc68077d1e6b4b9957a4c0996ea24, type: 3}
   - name: Crutches
     description: You were an amazing care taker. You helped me out of bed, carried
       me up the stairs, encouraged me to do my execises and made sure I was fed and
       comfortable
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 5c2693b8bb4a0c646a57f030ccd8d73e, type: 3}
   - name: Wheelchair
     description: And even in my disabled state, you made me feel normal. We made
       the most of my time in my wheelchair and film music videos. We also went for
       day trips to Seattle
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: c7df446592cc756448b33535e632c9fa, type: 3}
   - name: Mexico
     description: After 2 flights and a 5 hour bus ride, we finally made it to Bacalar
       to start our early anniversary trip! This was another test of patience as we
       had to navigate with our broken Spanish
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 6d53bac12668c2746b43b0560a006103, type: 3}
   - name: Boat
     description: You booked a boat tour of the 7 coloured lagoon for Valentine's
       Day. We swam in what seemed like the world's largest pool and had endless tequila
       drinks on the boat
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: d3d3c3fca103c304989ceed501cff527, type: 3}
   - name: Waves
     description: The next day we headed to Isla Mujeres. There we rented a golf cart
       and drove to see the beautiful turqouise waters and beaches. We made some iguana
       friends along the way
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 252daeca1e671284d920ad429e941589, type: 3}
   - name: Fish
     description: You had a great time snorkelling while I laid on the beach with
       a mojito. The fish freaked me out too much but you enjoyed swimming along side
       them!
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 6fd556db7b332af4e87544c60e3601a8, type: 3}
   - name: Market
     description: We spent our last day in Cancun and headed to the market. We were
       on the hunt for the perfect Catalina - Your something special at a great bargain
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 3bc370679d254c242b4d352449201f37, type: 3}
   - name: Stars
     description: My favourite memory was spending time with you on the beach while
       we star gazed and talked about life. It was a perfect moment being with you
       and hearing the waves crash
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 5e934d296b2e2634ba8a462a3c40bd91, type: 3}
   - name: Unknown
     description: Keep playing to unlock this memory!
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 28d9ef92966c43b46a9ea59b97b17d79, type: 3}

@@ -21,6 +21,7 @@ public class GameplayUI : MonoBehaviour
     public GameObject memoryPopup;
     public GameObject memoryLog;
     public Text memoryLogPrompt;
+    public Text controlPrompt;
 
     private GameObject iMemoryLog;
 
@@ -39,10 +40,12 @@ public class GameplayUI : MonoBehaviour
             // enable log
             iMemoryLog = Instantiate(memoryLog, transform, false);
             memoryLogPrompt.gameObject.SetActive(false);
+            controlPrompt.gameObject.SetActive(false);
         } else if (GameManager.Instance.state == GameManager.GameState.Log) {
             // disable log
             Destroy(iMemoryLog);
             memoryLogPrompt.gameObject.SetActive(true);
+            controlPrompt.gameObject.SetActive(true);
         }
     }
 

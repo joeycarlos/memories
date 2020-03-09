@@ -205,3 +205,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
+  selectAudio: {fileID: 8300000, guid: 989fe5b63e15d3f4fa8ff6cbb1a8b0c0, type: 3}

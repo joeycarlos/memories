@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float moveSpeed;
+    public GameObject memoryCollectEffect;
 
     private float horizontalMovement;
 
@@ -35,6 +36,8 @@ public class Player : MonoBehaviour
             int id = collision.gameObject.GetComponent<Memory>().memoryID;
             GameplayUI.Instance.DisplayMemoryPopup(id);
             Destroy(collision.gameObject);
+            GameObject iMemoryCollectEffect = Instantiate(memoryCollectEffect, collision.transform.position, Quaternion.identity);
+            Destroy(iMemoryCollectEffect, 0.9f);
         } else if (collision.gameObject.layer == LayerMask.NameToLayer("Exit")) {
             SceneFlowManager.Instance.NextScene();
         }

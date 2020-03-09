@@ -25,6 +25,10 @@ public class GameplayUI : MonoBehaviour {
     private GameObject iMemoryLog;
     private GameObject iMemoryPopup;
 
+    public AudioClip openLogSound;
+
+    private AudioSource audioSource;
+
     void Awake() {
         _instance = this;
     }
@@ -34,6 +38,7 @@ public class GameplayUI : MonoBehaviour {
             memoryLogPrompt.gameObject.SetActive(false);
             controlPrompt.gameObject.SetActive(false);
         }
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void DisplayMemoryPopup(int id) {
@@ -51,6 +56,7 @@ public class GameplayUI : MonoBehaviour {
             iMemoryLog = Instantiate(memoryLog, transform, false);
             memoryLogPrompt.gameObject.SetActive(false);
             controlPrompt.gameObject.SetActive(false);
+            audioSource.PlayOneShot(openLogSound);
         } else if (GameManager.Instance.state == GameManager.GameState.Log) {
             // disable log
             Destroy(iMemoryLog);

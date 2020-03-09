@@ -8,6 +8,8 @@ using UnityEngine.UI;
 public class MemoryLogItem : MonoBehaviour, ISelectHandler {
 
     public int id;
+    public AudioClip selectAudio;
+    private AudioSource audioSource;
 
     public void Start() {
         Image mImage = GetComponentsInChildren<Image>()[1];
@@ -19,10 +21,13 @@ public class MemoryLogItem : MonoBehaviour, ISelectHandler {
         else {
             mImage.sprite = MemoryManager.Instance.memoryDataList[24].sprite;
         }
+        
     }
 
     public void OnSelect(BaseEventData eventData) {
         // Update featured memory log item
         GameplayUI.Instance.UpdateFeaturedMemory(id);
+        if (audioSource == null) audioSource = GetComponentInParent<AudioSource>();
+        audioSource.PlayOneShot(selectAudio);
     }
 }

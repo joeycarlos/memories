@@ -286,6 +286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   featuredMemory: {fileID: 0}
+  returnToGamePrompt: {fileID: 0}
 --- !u!1 &8507875498580875354
 GameObject:
   m_ObjectHideFlags: 0
@@ -3114,6 +3115,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 2628488509805686788, guid: cdc86f47e57c8c34cbde24ea44030916,
+        type: 3}
+      propertyPath: selectAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 989fe5b63e15d3f4fa8ff6cbb1a8b0c0, type: 3}
     - target: {fileID: 2985329247449036345, guid: cdc86f47e57c8c34cbde24ea44030916,
         type: 3}
       propertyPath: m_LocalPosition.x

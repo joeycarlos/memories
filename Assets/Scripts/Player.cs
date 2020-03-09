@@ -6,18 +6,25 @@ public class Player : MonoBehaviour
 {
     public float moveSpeed;
     public GameObject memoryCollectEffect;
+    public ParticleSystem smoke;
 
     private float horizontalMovement;
 
     // Start is called before the first frame update
     void Start() {
+        smoke = GetComponentInChildren<ParticleSystem>();
+        smoke.Stop();
     }
 
     // Update is called once per frame
     void Update() {
         if (GameManager.Instance.state == GameManager.GameState.Gameplay) {
             ReadInput();
-            if (horizontalMovement != 0) Move();
+            if (horizontalMovement != 0) {
+                Move();
+            }
+            if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.LeftArrow)) smoke.Play();
+            else if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.LeftArrow)) smoke.Stop();
         }
     }
 

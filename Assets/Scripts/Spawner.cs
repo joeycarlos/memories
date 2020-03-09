@@ -31,7 +31,7 @@ public class Spawner : MonoBehaviour
     private float timeSinceSpawn;
 
     void Start() {
-        timeSinceSpawn = 0;
+        timeSinceSpawn = maxSpawnInterval;
     }
 
     void Update() {

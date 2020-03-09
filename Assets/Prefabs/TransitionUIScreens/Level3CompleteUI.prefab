@@ -333,8 +333,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "You helped me navigate through surgery and recovery with ease. \n\nEven
-    with all my doubts, we\r did it and the love and support you had for me inspired
-    me to keep going. "
+    with all my doubts, we did it. The love and support you gave me inspired me to
+    keep going."
 --- !u!1 &8488174134341404485
 GameObject:
   m_ObjectHideFlags: 0

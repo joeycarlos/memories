@@ -76,9 +76,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "So now here we are - who would\u2019ve known!\r\n\nWe\u2019ve been together
-    for 365 days and have played such a big role in each other\u2019s lives as we\r
-    figure out adulting."
+  m_Text: "So now here we are - who would\u2019ve known!\r\n\r\nWe\u2019ve been together
+    for 365 days and have played such a big role in each other's lives as we figure
+    out adulting together."
 --- !u!1 &463378749
 GameObject:
   m_ObjectHideFlags: 0

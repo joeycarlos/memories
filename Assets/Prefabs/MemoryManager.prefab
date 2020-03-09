@@ -44,118 +44,116 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   memoryDataList:
-  - name: Hinge
+  - name: '#ThankYouHinge'
     description: I was flipping through Hinge and came across this cute Asian boy.
       I wasn't shy, I messaged you first!
     sprite: {fileID: 21300000, guid: f56ddefb19a312a4fa6414a5806457aa, type: 3}
-  - name: '"Endless Love"'
-    description: After exchaging numbers, cheesy 90 song lyrics and chatting past
-      midnight for two weeks it was finally time to go on our first date!
+  - name: '"One, you''re like a dream come true"'
+    description: After exchaging numbers, cheesy 90's song lyrics and chatting past
+      midnight for two weeks, it was finally time to go on our first date!
     sprite: {fileID: 21300000, guid: 23456e53369ec26478bd53bc733ea47a, type: 3}
-  - name: Roses
-    description: I am usually a nervous person on dates but I was excited to meet
+  - name: The first of many surprises
+    description: I am usually a nervous person on dates, but I was excited to meet
       you! I was so suprised at the big bouquet of roses on the front seat!
     sprite: {fileID: 21300000, guid: ffa8eaa39ae12ff4da3ac4ef0f8de381, type: 3}
-  - name: Tim Hortons Cup
-    description: We went to a sushi restaurant and you forgot to pay for parking
-      hehe. From Theirry to Tim Hortons and into your car...our conversations led
-      us to a 12 hour date.
+  - name: Our first (and only) date
+    description: We went to a sushi restaurant and to Theirry and Tim Hortons and
+      into your car... where our conversations led us to a 12 hour date.
     sprite: {fileID: 21300000, guid: 23ddffb9cc26f7a45ab50b5d9387387e, type: 3}
-  - name: Heart
-    description: And then you asked me to be your girlfriend on that date - Some
-      say it might be quick - But I felt something special and something else between
-      us so I said yes!
+  - name: '#Yaaas'
+    description: And then you asked me to be your girlfriend on that date - some
+      say it might be quick - but I felt something special and something else between
+      us, so I said yes!
     sprite: {fileID: 21300000, guid: c44479d8678ed934cb55b52bcb413e8e, type: 3}
-  - name: Car
-    description: Our dates were simple but sweet! You continued to surprise me with
+  - name: The start of our many mini-adventures
+    description: Our dates were simple, but sweet! You continued to surprise me with
       flowers and we would check out a restaurant and then drive for hours while
-      we chatted and sang to your music
+      we chatted and sang to your music.
     sprite: {fileID: 21300000, guid: 1e2427fc4753eff4d8a582ed426f7f80, type: 3}
-  - name: Mountains
+  - name: 10 hours of car karaoke
     description: After our first month, we decided to travel to Banff! I had never
-      been before and a 10 hour car ride seemed daunting but it was so much fun!
+      been before, and a 10 hour car ride seemed daunting, but it was so much fun!
     sprite: {fileID: 21300000, guid: a37b6c3b9b9f3204c98cac6aa78fead0, type: 3}
-  - name: Pine Tree
-    description: We danced across a frozen Lake Louise, exploered Athabasca falls
+  - name: Winter fun in the spring time
+    description: We danced across a frozen Lake Louise, exploered Athabasca falls,
       and enjoyed the hot springs. You even picked me up a unique souvenir to bring
       home... a tree named Jasper!
     sprite: {fileID: 21300000, guid: 5b2a1b7ac8623814e99efbfafa70d5fe, type: 3}
-  - name: Boarding Pass
-    description: In May, we took our first plane ride to Toronto for an overnight
-      trip with my bestfriends! Despite all the flight difficulties, you managed
-      to make a special trip for my friends and I!
-    sprite: {fileID: 21300000, guid: 3827a17a180f48e48ab4da9894eca6f0, type: 3}
-  - name: Tulips
-    description: We headed to Abbostford one day with your cousin and niece. After
+  - name: Frolicking among flowers
+    description: We headed to Abbotsford one day with your cousin and niece. After
       a picnic, we frolicked among the tulips and you were the perfect "Instagram
       boyfriend" and took pictures of us.
     sprite: {fileID: 21300000, guid: f8931960021fd284ca1d7f2380f76cb1, type: 3}
-  - name: Hellevator
+  - name: Our first plane ride!
+    description: In May, we took our first plane ride to Toronto for an overnight
+      trip with my best friends! Despite all the flight difficulties, you managed
+      to make a special trip for my friends and I!
+    sprite: {fileID: 21300000, guid: 3827a17a180f48e48ab4da9894eca6f0, type: 3}
+  - name: Facing (mini) fears
     description: In the summer, you helped me face a fear. You held my hand the whole
-      time for the Hellevator ride at the PNE and although I felt sick after, I was
-      glad to experience it with you
+      time for the Hellevator ride at the PNE. Although I felt sick after, I was
+      glad to experience it with you.
     sprite: {fileID: 21300000, guid: 0abd26f084a698c4cab33d27bfa92675, type: 3}
-  - name: PS3 Games
-    description: We took a road trip to Portland and of course stopped at Jollibee
-      along the way. Although you were so tired you kept driving! But we also scored
+  - name: '#FallVibez'
+    description: We took a road trip to Portland, and of course, stopped at Jollibee
+      along the way. Although you were so tired, you kept driving! But we also scored
       those PS3 games for free!
     sprite: {fileID: 21300000, guid: 07b41cb8e5f95934c9457eaf3c4f35cf, type: 3}
-  - name: X-Ray
-    description: You accompanied me to my pre-surgery appointment and I was absolutley
-      terrified. But having you there and reminding me of how strong I was gave me
-      courage
+  - name: Facing (big) fears
+    description: You accompanied me to my pre-surgery appointment and I was absolutely
+      terrified. But having you there, reminding me of how strong I was, gave me
+      courage.
     sprite: {fileID: 21300000, guid: a3f8bd8113b1555408566d1569146250, type: 3}
-  - name: Spaghetti
-    description: We celebated your birthday in October. I surprised you with a home
+  - name: Happy BIrthday Ma Dude!
+    description: We celebrated your birthday in October. I surprised you with a home
       cooked meal featuring your favourite - Spaghetti Bolognese!
     sprite: {fileID: 21300000, guid: 15562e58b68c308418eef73e234c58c8, type: 3}
-  - name: Damaged Car
-    description: A week before surgey, we got into a car accident with your Prius.
-      I was a big mess but you took handled it so well and you took care of me.
+  - name: Car crash
+    description: A week before surgery, we got into a car accident with your Prius.
+      I was a big mess, but you took handled it so well and you took care of me.
     sprite: {fileID: 21300000, guid: f53bf2c8c063be647831370092caa566, type: 3}
-  - name: Hospital
-    description: On the day of the surgey, you came with my family and brought me
+  - name: The big day
+    description: On the day of the surgery, you came with my family and brought me
       home after. I was so thankful and at ease that I had you by my side as I was
-      walking in crutches
+      walking in crutches.
     sprite: {fileID: 21300000, guid: 3ccfc68077d1e6b4b9957a4c0996ea24, type: 3}
-  - name: Crutches
-    description: You were an amazing care taker. You helped me out of bed, carried
-      me up the stairs, encouraged me to do my execises and made sure I was fed and
-      comfortable
+  - name: My hero!
+    description: You were an amazing caretaker. You helped me out of bed, carried
+      me up the stairs, encouraged me to do my exercises and made sure I was fed
+      and comfortable.
     sprite: {fileID: 21300000, guid: 5c2693b8bb4a0c646a57f030ccd8d73e, type: 3}
-  - name: Wheelchair
+  - name: '#TheySeeMeRolling'
     description: And even in my disabled state, you made me feel normal. We made
-      the most of my time in my wheelchair and film music videos. We also went for
-      day trips to Seattle
+      the most of my time in my wheelchair and filmed music videos. We also went
+      for day trips to Seattle!
     sprite: {fileID: 21300000, guid: c7df446592cc756448b33535e632c9fa, type: 3}
-  - name: Mexico
-    description: After 2 flights and a 5 hour bus ride, we finally made it to Bacalar
-      to start our early anniversary trip! This was another test of patience as we
-      had to navigate with our broken Spanish
+  - name: Hola!
+    description: After two flights and a five hour bus ride, we finally made it to
+      Bacalar to start our early anniversary trip! This was another test of patience,
+      as we had to navigate with our broken Spanish.
     sprite: {fileID: 21300000, guid: 6d53bac12668c2746b43b0560a006103, type: 3}
-  - name: Boat
-    description: You booked a boat tour of the 7 coloured lagoon for Valentine's
+  - name: TEQUILA
+    description: You booked a boat tour of the seven coloured lagoon for Valentine's
       Day. We swam in what seemed like the world's largest pool and had endless tequila
-      drinks on the boat
+      drinks on the boat.
     sprite: {fileID: 21300000, guid: d3d3c3fca103c304989ceed501cff527, type: 3}
-  - name: Waves
-    description: The next day we headed to Isla Mujeres. There we rented a golf cart
-      and drove to see the beautiful turqouise waters and beaches. We made some iguana
-      friends along the way
+  - name: Isla Mujeres
+    description: The next day we headed to Isla Mujeres. There, we rented a golf
+      cart and drove to see the beautiful turqouise waters and beaches. We made some
+      iguana friends along the way.
     sprite: {fileID: 21300000, guid: 252daeca1e671284d920ad429e941589, type: 3}
-  - name: Fish
+  - name: '#BeachVibez'
     description: You had a great time snorkelling while I laid on the beach with
-      a mojito. The fish freaked me out too much but you enjoyed swimming along side
+      a mojito. The fish freaked me out too much but you enjoyed swimming alongside
       them!
     sprite: {fileID: 21300000, guid: 6fd556db7b332af4e87544c60e3601a8, type: 3}
-  - name: Market
+  - name: Something else... something special
     description: We spent our last day in Cancun and headed to the market. We were
-      on the hunt for the perfect Catalina - Your something special at a great bargain
+      on the hunt for the perfect Catalina - your something special at a great bargain.
     sprite: {fileID: 21300000, guid: 3bc370679d254c242b4d352449201f37, type: 3}
-  - name: Stars
+  - name: A star-filled night
     description: My favourite memory was spending time with you on the beach while
-      we star gazed and talked about life. It was a perfect moment being with you
-      and hearing the waves crash
+      we star gazed and talked about life. It was a perfect moment being with you.
     sprite: {fileID: 21300000, guid: 5e934d296b2e2634ba8a462a3c40bd91, type: 3}
   - name: Unknown
     description: Keep playing to unlock this memory!

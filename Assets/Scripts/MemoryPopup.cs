@@ -14,7 +14,7 @@ public class MemoryPopup : MonoBehaviour
     public void LoadMemoryData(int id) {
         MemoryData mData = MemoryManager.Instance.memoryDataList[id];
         if (id < 24) {
-            mName.text = "Memory " + (id + 1).ToString() + ": " + mData.name;
+            mName.text = mData.name;
             mDescription.text = mData.description;
             mImage.sprite = mData.sprite;
         } else {

@@ -23,6 +23,7 @@ public class GameplayUI : MonoBehaviour {
     public Text controlPrompt;
 
     private GameObject iMemoryLog;
+    private GameObject iMemoryPopup;
 
     void Awake() {
         _instance = this;
@@ -36,7 +37,10 @@ public class GameplayUI : MonoBehaviour {
     }
 
     public void DisplayMemoryPopup(int id) {
-        GameObject iMemoryPopup = Instantiate(memoryPopup, transform, false);
+        if (iMemoryPopup != null)
+            Destroy(iMemoryPopup);
+
+        iMemoryPopup = Instantiate(memoryPopup, transform, false);
         iMemoryPopup.GetComponent<MemoryPopup>().LoadMemoryData(id);
         iMemoryPopup.GetComponent<MemoryPopup>().DestroyPopupDelay();
     }

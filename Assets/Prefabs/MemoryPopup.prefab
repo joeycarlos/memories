@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16b02feb0a2f72643be17f9ba8cbe419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayTime: 4
+  displayTime: 5
   mName: {fileID: 5028873193573703007}
   mDescription: {fileID: 5028873194747517434}
   mImage: {fileID: 5028873195642048618}

@@ -57,7 +57,7 @@ MonoBehaviour:
       you! I was so suprised at the big bouquet of roses on the front seat!
     sprite: {fileID: 21300000, guid: ffa8eaa39ae12ff4da3ac4ef0f8de381, type: 3}
   - name: Our first (and only) date
-    description: We went to a sushi restaurant and to Theirry and Tim Hortons and
+    description: We went to a sushi restaurant and to Thierry and Tim Hortons and
       into your car... where our conversations led us to a 12 hour date.
     sprite: {fileID: 21300000, guid: 23ddffb9cc26f7a45ab50b5d9387387e, type: 3}
   - name: '#Yaaas'

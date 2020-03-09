@@ -104,7 +104,7 @@ MonoBehaviour:
       terrified. But having you there, reminding me of how strong I was, gave me
       courage.
     sprite: {fileID: 21300000, guid: a3f8bd8113b1555408566d1569146250, type: 3}
-  - name: Happy BIrthday Ma Dude!
+  - name: Happy Birthday Ma Dude!
     description: We celebrated your birthday in October. I surprised you with a home
       cooked meal featuring your favourite - Spaghetti Bolognese!
     sprite: {fileID: 21300000, guid: 15562e58b68c308418eef73e234c58c8, type: 3}
@@ -153,7 +153,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 3bc370679d254c242b4d352449201f37, type: 3}
   - name: A star-filled night
     description: My favourite memory was spending time with you on the beach while
-      we star gazed and talked about life. It was a perfect moment being with you.
+      we stargazed and talked about life. It was a perfect moment being with you.
     sprite: {fileID: 21300000, guid: 5e934d296b2e2634ba8a462a3c40bd91, type: 3}
   - name: Unknown
     description: Keep playing to unlock this memory!

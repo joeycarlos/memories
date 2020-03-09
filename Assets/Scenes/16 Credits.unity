@@ -420,33 +420,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: CreditsUI
       objectReference: {fileID: 0}
-    - target: {fileID: 2025581537465279261, guid: fa655f567dbd98f46a55ec3a5d2e5bd9,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -150
-      objectReference: {fileID: 0}
-    - target: {fileID: 2025581537465279262, guid: fa655f567dbd98f46a55ec3a5d2e5bd9,
-        type: 3}
-      propertyPath: m_Text
-      value: 'Design / Programming / Art: Joey Laguio
-
-
-        Writing: Anna Francia
-
-
-        Iconography:
-        Icons taken from www.flaticon.com, made by: Freepik, Pixel perfect, Good
-        Ware, Smashicons, Those Icons, Google, Creaticca Creative Agency, itim2101
-
-
-        Sound:
-        Gamemaster Audio - Pro Sound Collection v1.3'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2025581538950354249, guid: fa655f567dbd98f46a55ec3a5d2e5bd9,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -50
-      objectReference: {fileID: 0}
     - target: {fileID: 5765829790598502782, guid: fa655f567dbd98f46a55ec3a5d2e5bd9,
         type: 3}
       propertyPath: m_LocalPosition.x
